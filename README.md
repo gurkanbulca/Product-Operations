@@ -9,3 +9,5 @@
 ## Database
     Google Firebase
 
+### get dist folder for builded version.
+

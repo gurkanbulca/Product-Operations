@@ -113,6 +113,7 @@ export default {
         this.$store.dispatch("sellProduct", this.edited)
         this.$modal.hide('urun-edit')
       }else{
+        // aynı
         this.$modal.hide('urun-edit')
       }
     },

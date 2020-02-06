@@ -10,6 +10,10 @@ Vue.use(VueRouter);
 
 const routes = [
     {
+        path: "/index.html",
+        redirect: "/"
+    },
+    {
         path: '/', name: 'urunlistesi', components: {
             default: UrunListesi,
             'navbar': Navbar,
@@ -36,5 +40,5 @@ const routes = [
 
 export const router = new VueRouter({
     routes,
-    mode : 'history',
-  })
+    mode: 'history',
+})

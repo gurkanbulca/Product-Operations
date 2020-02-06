@@ -87,7 +87,7 @@ export default {
     },
     showAlert() {
       if (this.count == null || this.selectedProduct == null) return false;
-      return this.selectedProduct.count < this.count;
+      return Number(this.selectedProduct.count) < this.count;
     }
   },
   beforeRouteLeave(to, from, next) {

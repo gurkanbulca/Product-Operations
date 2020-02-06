@@ -1,24 +1,11 @@
-# proje-4
+# Project: Product Operations
 
-## Project setup
-```
-yarn install
-```
+## Core technologies
+    Html, Css, Js, Nodejs, Vuejs
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Plugins
+    vuex, vue-resource, ve-router, bootstrap-vue, vue-js-modal
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Database
+    Google Firebase
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
